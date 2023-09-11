@@ -1,0 +1,15 @@
+.notFoundMain{
+        text-align: center;
+        position: relative;
+        justify-content: center;
+        padding-top: 70px;
+        padding-bottom: 229px;
+        background-color: rgb(39, 39, 39);
+        background-size: cover;
+}
+
+.notFoundTitle{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

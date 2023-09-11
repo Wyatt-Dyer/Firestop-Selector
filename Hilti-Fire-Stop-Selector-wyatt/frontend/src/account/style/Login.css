@@ -1,0 +1,130 @@
+
+.login-wrapper {
+    padding-top: 30px;
+    align-items: center;
+}
+
+.main{
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 229px;
+    background-color: rgb(39, 39, 39);
+    background-size: cover;
+  }
+  
+  .sub-main{
+    object-fit: cover;
+    position: relative;
+    height: 500px;
+    width: 25%;
+    background-color: rgb(75, 75, 75);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-top: 130px;
+    box-shadow: 0px 0px 20px;
+    z-index: 1;
+  }
+
+  .logo{
+    position: absolute;
+    object-position: top;
+    height: auto;
+    width: 35%;
+    z-index: 2;
+
+  }
+
+  .image1 {
+    position: absolute;
+    left: 0px;
+    width: 42%;
+    height: auto;
+    margin-top: 180px;
+    z-index: 0;
+  }
+
+  .image2 {
+    position: absolute;
+    right: 0px;
+    width: 42%;
+    height: auto;
+    margin-top: 180px;
+    z-index: 0;
+  }
+
+  .second-input{
+    padding-top: 20px;
+  }
+
+  .username{
+    height: auto;
+    min-height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 100;
+    background-color: white;
+  }
+
+  .password{
+    height: auto;
+    min-height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: white;
+    -webkit-text-security: disc;
+  }
+
+  .btn{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    box-shadow: 0px 0px 4px rgb(53, 53, 53) ;
+    border: none;
+  }
+
+  .btn:hover{
+    background-color: red;
+    opacity: 80%;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+
+  /* .wrapper::before,.wrapper::after{
+    content: " ";
+    min-width: 160px;
+    width: auto;
+    height: 2px;
+    margin: 0 10px;
+    vertical-align: super;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+  } */
+
+  .link {
+    text-align: left;
+    margin-left: 75px;
+    font-weight: lighter;
+  }
+
+  a{
+    color: rgb(179, 177, 177);
+    text-decoration: none;
+    }
+
+  .login2 {
+      color: white;
+      margin-left: 25%;
+      text-align: left;
+      font-weight: lighter;
+    }
